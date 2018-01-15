@@ -22,4 +22,15 @@ int main(){
 	nila.warna = "Warna hitam ";
 	bawal.warna = "Warnanya hitam ";
 	
-};
+
+	cout<<"ikan kakap "<< (kakap.panjang) << (kakap.massa) << (kakap.warna);
+	kakap.habitat("nya di laut ");
+	cout<<"ikan nila "<< (nila.panjang) << (nila.massa) << (nila.warna);
+	nila.habitat("nya di sungai ");
+	cout<<"ikan bawal "<< (bawal.panjang) << (bawal.massa) << (bawal.warna);
+	bawal.habitat("nya di laut "); 
+}
+		
+	void ikan::habitat(string habitat){
+	cout<<"ikan dan habitat "<<habitat<<"\n";
+}
