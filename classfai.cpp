@@ -7,7 +7,8 @@ class ikan{
 		string panjang, massa, warna;
 		
 };
-
 int main(){
+	ikan kakap, nila, bawal;
+
 	
 }
